@@ -1,0 +1,15 @@
+body, html, .circle-container {
+    height: 100%;
+} 
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 1000px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
